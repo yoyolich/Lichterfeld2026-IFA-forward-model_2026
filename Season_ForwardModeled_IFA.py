@@ -267,7 +267,7 @@ def export_to_excel_multi(df, filename="Output_ORAS5.xlsx"):
         df_original.to_excel(writer, sheet_name="Original", index=False)
         df_altered.to_excel(writer, sheet_name="Altered", index=False)
 
-    print(f"✅ Export completed: {output_path}")
+    print(f"Export completed: {output_path}")
     print(f"   - Sheet 'Original': unaltered series")
     print(f"   - Sheet 'Altered' : series with modified seasonality")
 
