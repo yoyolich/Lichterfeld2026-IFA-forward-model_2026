@@ -11,7 +11,7 @@
 
 ======================================
 Forward modelling of Individual Foraminifera Analysis (IFA) with 
-interannual variability modification.
+interannual variability modification:
 
 
 import numpy as np
